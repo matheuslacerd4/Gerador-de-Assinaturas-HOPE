@@ -50,7 +50,7 @@ function Form(props) {
             placeholder=" "
             required
           />
-          <div className={styles.underline}></div>
+          <div className={styles.underlineG}></div>
           <label htmlFor="name">Nome Completo</label>
         </div>
         <div className={styles.formFlexRow}>
@@ -155,7 +155,6 @@ function Form(props) {
             placeholder=" "
             required
           >
-            <div className={styles.underline}></div>
             <option value=""></option>
             <option value="Shopping Conjunto Nacional - Sd/Norte, Conj.a - Loja 2141 - Asa Norte - DF, 70077-900">
               Brasílha - Conjunto Nacional
@@ -203,6 +202,7 @@ function Form(props) {
               São Paulo - Vila Olímpia
             </option>
           </select>
+          <div className={styles.underlineG}></div>
           <label htmlFor="address">Endereço</label>
         </div>
         <div className={styles.formDivButton}>
