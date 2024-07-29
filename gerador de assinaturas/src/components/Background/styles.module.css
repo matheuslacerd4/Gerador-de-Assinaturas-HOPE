@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("https://gerador-de-assinaturas-hope.web.app/_nuxt/img/bg-hopelingerie.da349eb.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

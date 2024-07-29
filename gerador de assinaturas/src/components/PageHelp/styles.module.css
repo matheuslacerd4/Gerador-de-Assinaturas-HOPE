@@ -1,0 +1,87 @@
+.container {
+  height: 100%;
+  width: 780px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: 17px;
+  padding: 16px 0 36px 0;
+  overflow-y: auto;
+}
+
+.btnVoltar {
+  background-color: #fff;
+  border: none;
+}
+
+.arrowLeftShort {
+  border: none;
+  background-color: #fff;
+  margin-left: 15px;
+}
+
+.arrowLeftShort:hover {
+  cursor: pointer;
+  background-color: #dddddd;
+  border-radius: 50%;
+}
+
+.container h2 {
+  text-align: center;
+  font-family: "roboto";
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.h2Title {
+  margin: 10px 0 30px 0 !important;
+}
+
+.imgSpan {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.content {
+  display: block;
+  padding: 24px;
+  background-color: #fff;
+  font-family: "roboto";
+  font-size: 14px;
+}
+
+.txtTitle {
+  font-family: "roboto";
+  align-items: start;
+  font-size: 14px;
+}
+
+.btnArrow {
+  border: none;
+  background-color: transparent;
+}
+
+.btnArrow:hover {
+  cursor: pointer;
+}
